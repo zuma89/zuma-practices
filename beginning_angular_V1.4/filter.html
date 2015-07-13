@@ -12,11 +12,12 @@
 				plan: 'super-basic-plan'
 			};
 			/**
-			*  Module
+			*  Filter Module
 			*
-			* Description
+			*  Showcase of Angular filter function. Starting v1.4 Angular doesn't allow global controllers.
 			*/
-			angular.module('filterApp', []).controller('MyFilterDemoCtrl',function($scope){
+			angular.module('filterApp', [])
+			.controller('MyFilterDemoCtrl',function($scope){
 				$scope.data = someData;				
 			});
 				
